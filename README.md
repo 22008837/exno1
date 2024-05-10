@@ -1,12 +1,12 @@
 # Ex.no:1 Data Cleaning Process
 
-# AIM
+## AIM
 To read the given data and perform data cleaning and save the cleaned data to a file.
 
-# Explanation
+## Explanation
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information.
 
-# Algorithm
+## Algorithm
 STEP 1: Read the given Data
 
 STEP 2: Get the information about the data
@@ -19,7 +19,7 @@ STEP 5: Remove outliers using IQR
 
 STEP 6: Use zscore of to remove outliers
 
-# Coding and Output
+## Coding and Output
 ```
 import pandas as pd
 import numpy as np
@@ -128,5 +128,5 @@ z
 ```
 ![image](https://github.com/22008837/exno1/assets/120194155/e03d2f2e-536d-4d09-91a9-2a5941ae4bcd)
 
-# Result
+## Result
 Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
